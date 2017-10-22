@@ -11,7 +11,7 @@ def post_fb(DESIRED_STATUS, POST_IMAGE_URL = None):
     """
     # 'https://developers.facebook.com/' 에서 2개월 장기 토큰을 생성해야함
 
-    YOUR_ACCESS_TOKEN = "{YOUR_ACCRESS_TOKEN}"
+    YOUR_ACCESS_TOKEN = "{YOUR_ACCESS_TOKEN}"
     access_token = YOUR_ACCESS_TOKEN
     apiConnection = GraphAPI(access_token)
 
