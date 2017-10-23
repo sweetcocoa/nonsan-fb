@@ -28,10 +28,10 @@ def get_military_address(ENTER_DATE, BIRTHDAY, NAME):
     for i, list_table in enumerate(table):
         if i > 0:
             break
-        # print("{} 번째 list_table".format(i))
+
         tds = list_table.find_elements_by_tag_name("td")
         for j, td in enumerate(tds):
-            # print(j, "번째 td", td.text, td.get_attribute("style"))
+
             if j >= 1 and j <=4:
                 ret_str += td.text + " "
             if j == 4:
